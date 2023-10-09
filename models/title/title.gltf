@@ -1,0 +1,290 @@
+{
+    "asset": {
+        "copyright": "(C)2023 post",
+        "generator": "maya2glTF v1.4.0 3d7ba8eaf03e",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "tinyfoot_GEO1",
+            "mesh": 0,
+            "translation": [
+                1.4091747999191285,
+                -158.934814453125,
+                0.0
+            ],
+            "scale": [
+                7.045874118804932,
+                7.045874118804932,
+                7.045874118804932
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "tinyfoot_GEO1Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "tinyfoot_MAT",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.01128000020980835,
+                    0.0692799985408783,
+                    0.006719999946653843,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "animations": [
+        {
+            "name": "start",
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 0,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 0,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "samplers": [
+                {
+                    "input": 5,
+                    "interpolation": "LINEAR",
+                    "output": 6
+                },
+                {
+                    "input": 5,
+                    "interpolation": "LINEAR",
+                    "output": 7
+                }
+            ]
+        }
+    ],
+    "accessors": [
+        {
+            "name": "tinyfoot_GEO1Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 35700,
+            "max": [
+                13199
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "tinyfoot_GEO1Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13200,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "tinyfoot_GEO1Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 158400,
+            "componentType": 5126,
+            "count": 13200,
+            "max": [
+                17.9292049407959,
+                12.38938045501709,
+                10.0
+            ],
+            "min": [
+                -16.619468688964845,
+                -14.106194496154786,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "tinyfoot_GEO1Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13200,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9825705289840698,
+                -0.863271176815033,
+                -1.0,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "tinyfoot_GEO1Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 13200,
+            "max": [
+                0.9980080127716065,
+                0.998055934906006
+            ],
+            "min": [
+                0.0019920319318771364,
+                0.026033461093902589
+            ],
+            "type": "VEC2"
+        },
+        {
+            "name": "start/anim/frames",
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 426,
+            "max": [
+                17.70833396911621
+            ],
+            "min": [
+                0.0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "tinyfoot_GEO1/anim/start/T",
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 426,
+            "max": [
+                1.4091747999191285,
+                142.3684234619141,
+                0.0
+            ],
+            "min": [
+                1.4091747999191285,
+                -158.93479919433598,
+                0.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "tinyfoot_GEO1/anim/start/S",
+            "bufferView": 5,
+            "byteOffset": 5112,
+            "componentType": 5126,
+            "count": 426,
+            "max": [
+                10.358562469482422,
+                10.358562469482422,
+                10.358562469482422
+            ],
+            "min": [
+                7.04587459564209,
+                7.04587459564209,
+                7.04587459564209
+            ],
+            "type": "VEC3"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "title/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 645528,
+            "byteLength": 71400,
+            "target": 34963
+        },
+        {
+            "name": "title/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 221424,
+            "byteLength": 316800,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "title/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 211200,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "title/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 538224,
+            "byteLength": 105600,
+            "byteStride": 8,
+            "target": 34962
+        },
+        {
+            "name": "title/data/generic-4",
+            "buffer": 0,
+            "byteOffset": 643824,
+            "byteLength": 1704
+        },
+        {
+            "name": "title/data/generic-12",
+            "buffer": 0,
+            "byteOffset": 211200,
+            "byteLength": 10224
+        }
+    ],
+    "buffers": [
+        {
+            "name": "title/data",
+            "byteLength": 716928,
+            "uri": "title0.bin"
+        }
+    ]
+}

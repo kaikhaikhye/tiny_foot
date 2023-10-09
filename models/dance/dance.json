@@ -1,0 +1,11 @@
+{
+	"dance": {
+		"version": 1,
+		"id": "dance",
+		"name": "1",
+		"kind": "Puppeteer",
+		"mood": null,
+		"postPlaybackMood": null,
+		"duration": 20.66666667
+	}
+}
